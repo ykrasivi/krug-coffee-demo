@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 440">
+  <defs>
+    <clipPath id="a"><path d="M0 432a8 8 0 0 0 8 8h184a8 8 0 0 0 8-8V100A100 100 0 0 0 0 100Z"/></clipPath>
+    <linearGradient id="d" x2="0" y2="1">
+      <stop offset="0" stop-color="#2A1E17" stop-opacity="0"/>
+      <stop offset="1" stop-color="#2A1E17" stop-opacity=".32"/>
+    </linearGradient>
+    <linearGradient id="s">
+      <stop offset="0" stop-color="#2A1E17" stop-opacity=".35"/>
+      <stop offset=".45" stop-color="#2A1E17" stop-opacity="0"/>
+      <stop offset="1" stop-color="#2A1E17" stop-opacity=".45"/>
+    </linearGradient>
+    <!-- следы пальцев: полосы разной ширины под 4° -->
+    <pattern id="f" width="53" height="440" patternUnits="userSpaceOnUse" patternTransform="rotate(4)">
+      <path fill="#2A1E17" fill-opacity=".1" d="M0 0h11v440H0zm19 0h3v440h-3zm12 0h8v440h-8zm15 0h2v440h-2z"/>
+      <path fill="#EFE6D8" fill-opacity=".3" d="M11 0h3v440h-3zm28 0h2v440h-2zm9 0h1v440h-1z"/>
+    </pattern>
+    <filter id="n" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 .165 0 0 0 0 .118 0 0 0 0 .09 1.1 0 0 0 -.45"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g clip-path="url(#a)">
+    <path fill="#D9C3A0" d="M0 0h200v440H0z"/>
+    <path fill="url(#f)" d="M0 0h200v440H0z"/>
+    <path fill="url(#d)" d="M0 0h200v440H0z"/>
+    <path filter="url(#n)" d="M0 0h200v440H0z"/>
+    <!-- гончарный круг -->
+    <path fill="#2A1E17" d="M28 392a72 13 0 0 0 144 0v10a72 13 0 0 1-144 0zM88 410h24v30H88z"/>
+    <ellipse cx="100" cy="392" rx="72" ry="13" fill="#5E4A3C"/>
+    <path fill="none" stroke="#D9C3A0" stroke-opacity=".25" d="M50 392a50 8 0 0 0 100 0"/>
+    <!-- заготовка: толстые стенки, неровный край -->
+    <path fill="#B4532A" d="M48 392c2-8 16-10 24-16 6-6 2-22 3-40 1-14-1-26-3-36 10 3 18 2 27 1s18-3 28-1c-3 10-4 22-3 36 1 18-3 34 3 40 8 6 22 8 25 16z"/>
+    <path fill="url(#s)" d="M48 392c2-8 16-10 24-16 6-6 2-22 3-40 1-14-1-26-3-36 10 3 18 2 27 1s18-3 28-1c-3 10-4 22-3 36 1 18-3 34 3 40 8 6 22 8 25 16z"/>
+    <ellipse cx="100" cy="299" rx="28" ry="5" fill="#2A1E17" fill-opacity=".75"/>
+    <path fill="none" stroke="#2A1E17" stroke-opacity=".28" stroke-width="1.5" d="M74 318q26 5 52 0M75 338q25 5 50 0M74 358q26 5 52 0"/>
+    <path fill="none" stroke="#EFE6D8" stroke-opacity=".35" stroke-width="2" stroke-linecap="round" d="M80 310c1 20-1 40 0 58"/>
+  </g>
+</svg>

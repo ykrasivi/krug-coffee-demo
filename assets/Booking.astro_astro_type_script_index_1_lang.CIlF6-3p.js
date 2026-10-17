@@ -1,0 +1,1 @@
+var e=document.querySelector(`[data-booking]`),t=e?.querySelector(`[data-table-count]`);if(e&&t){let n=()=>{let n=e.querySelector(`input[name="guests"]:checked`);t.textContent=n?n.value:`·`};e.addEventListener(`change`,n),e.addEventListener(`reset`,()=>requestAnimationFrame(n)),n()}

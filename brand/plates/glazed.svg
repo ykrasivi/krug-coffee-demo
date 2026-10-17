@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 440">
+  <defs>
+    <clipPath id="a"><path d="M0 432a8 8 0 0 0 8 8h184a8 8 0 0 0 8-8V100A100 100 0 0 0 0 100Z"/></clipPath>
+    <linearGradient id="w" x2="0" y2="1">
+      <stop offset="0" stop-color="#EFE6D8" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#EFE6D8" stop-opacity=".03"/>
+    </linearGradient>
+    <linearGradient id="s">
+      <stop offset=".5" stop-color="#2A1E17" stop-opacity="0"/>
+      <stop offset="1" stop-color="#2A1E17" stop-opacity=".35"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#a)">
+    <path fill="#2A1E17" d="M0 0h200v440H0z"/>
+    <path fill="url(#w)" d="M0 0h200v440H0z"/>
+    <!-- полки -->
+    <g fill="#D9C3A0">
+      <path fill-opacity=".5" d="M0 180h200v9H0zm0 120h200v9H0zm0 115h200v9H0z"/>
+      <path d="M0 180h200v1.5H0zm0 120h200v1.5H0zm0 115h200v1.5H0z"/>
+    </g>
+    <!-- I: кремовая, высокая, с терракотовым краем -->
+    <path fill="#EFE6D8" d="M68 128c0 28 14 44 20 47v5h24v-5c6-3 20-19 20-47z"/>
+    <path fill="#D9C3A0" d="M88 172h24v8H88z"/>
+    <ellipse cx="100" cy="128" rx="32" ry="6" fill="#D9C3A0" stroke="#B4532A" stroke-width="2.5"/>
+    <!-- II: селадон, широкая и низкая -->
+    <path fill="#5E7A6E" d="M16 266c2 22 26 32 32 32v2h30v-2c6 0 30-10 32-32z"/>
+    <ellipse cx="63" cy="266" rx="47" ry="7" fill="#4D675B"/>
+    <path fill="url(#s)" d="M16 266c2 22 26 32 32 32v2h30v-2c6 0 30-10 32-32z"/>
+    <!-- III: терракотовая, кремовая внутри, с подтёком -->
+    <path fill="#B4532A" d="M126 250c-1 26 6 42 12 46v4h28v-4c6-4 12-20 11-46z"/>
+    <path fill="#EFE6D8" d="M128 250h47c0 8-1 12-3 12-2 0-2 7-4 7s-2-5-4-5c-3 0-3-6-6-6-4 0-6 4-10 4s-6-3-9-3-4 2-7 2c-3 0-4-3-4-11z"/>
+    <ellipse cx="151.5" cy="250" rx="25.5" ry="5" fill="#D9C3A0"/>
+    <!-- IV: тёмный селадон, кривой край, неглазурованная ножка -->
+    <path fill="#4D675B" d="M42 366c-2 26 26 42 38 44v5h40v-5c14-2 38-22 36-54z"/>
+    <path fill="#D9C3A0" d="M78 403c10 4 32 4 44 0v12H78z"/>
+    <path fill="#5E7A6E" d="M42 366c30 4 84 0 114-6-26-8-90-4-114 6z"/>
+    <path fill="#2A1E17" fill-opacity=".45" d="M50 365c30 3 74 0 98-5-26-5-78-3-98 5z"/>
+    <path fill="url(#s)" d="M42 366c-2 26 26 42 38 44v5h40v-5c14-2 38-22 36-54z"/>
+    <!-- блики глазури -->
+    <path fill="none" stroke="#EFE6D8" stroke-opacity=".55" stroke-width="2.5" stroke-linecap="round" d="M76 140c1 12 5 22 10 28M26 274c4 8 10 13 16 16M132 262c1 12 3 22 7 28M52 376c3 12 12 22 22 27"/>
+  </g>
+  <path fill="none" stroke="#D9C3A0" stroke-opacity=".22" stroke-width="2" d="M1 432a7 7 0 0 0 7 7h184a7 7 0 0 0 7-7V100A99 99 0 0 0 1 100Z"/>
+</svg>

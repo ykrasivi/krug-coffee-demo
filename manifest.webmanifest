@@ -1,0 +1,15 @@
+{
+  "name": "«Круг» — кофейня при гончарной мастерской",
+  "short_name": "Круг",
+  "lang": "ru",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "background_color": "#EFE6D8",
+  "theme_color": "#EFE6D8",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

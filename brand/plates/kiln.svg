@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 440">
+  <style>@media (prefers-reduced-motion:no-preference){.g{animation:f 2.8s ease-in-out infinite alternate}}@keyframes f{to{opacity:.8}}</style>
+  <defs>
+    <clipPath id="a"><path d="M0 432a8 8 0 0 0 8 8h184a8 8 0 0 0 8-8V100A100 100 0 0 0 0 100Z"/></clipPath>
+    <!-- кладка вперевязку -->
+    <pattern id="b" width="40" height="28" patternUnits="userSpaceOnUse">
+      <path fill="#2A1E17" d="M0 0h40v28H0z"/>
+      <path fill="#B4532A" fill-opacity=".5" d="M1.5 1.5h37v11h-37zM-18.5 15.5h37v11h-37zm40 0h37v11h-37z"/>
+    </pattern>
+    <linearGradient id="k" x2="0" y2="1">
+      <stop offset="0" stop-color="#2A1E17" stop-opacity=".85"/>
+      <stop offset=".6" stop-color="#2A1E17" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#2A1E17" stop-opacity=".55"/>
+    </linearGradient>
+    <radialGradient id="e" cx=".5" cy=".58" r=".55">
+      <stop offset="0" stop-color="#EFE6D8"/>
+      <stop offset=".3" stop-color="#E08A52"/>
+      <stop offset=".75" stop-color="#B4532A"/>
+      <stop offset="1" stop-color="#2A1E17"/>
+    </radialGradient>
+  </defs>
+  <g clip-path="url(#a)">
+    <path fill="url(#b)" d="M0 0h200v440H0z"/>
+    <path fill="url(#k)" d="M0 0h200v440H0z"/>
+    <!-- клинчатая перемычка над дверцей -->
+    <path fill="none" stroke="#B4532A" stroke-opacity=".55" stroke-width="16" stroke-dasharray="13 2.5" d="M28 410V178a72 72 0 0 1 144 0v232"/>
+    <!-- чугунная дверца -->
+    <path fill="#2A1E17" stroke="#D9C3A0" stroke-opacity=".35" stroke-width="2" d="M40 412V182a60 60 0 0 1 120 0v230z"/>
+    <path fill="none" stroke="#D9C3A0" stroke-opacity=".14" stroke-width="2" d="M52 400V186a48 48 0 0 1 96 0v214z"/>
+    <g fill="#D9C3A0" fill-opacity=".45">
+      <circle cx="52" cy="200" r="2.5"/><circle cx="148" cy="200" r="2.5"/>
+      <circle cx="52" cy="390" r="2.5"/><circle cx="148" cy="390" r="2.5"/>
+    </g>
+    <!-- засов -->
+    <path fill="#D9C3A0" fill-opacity=".5" d="M120 334h44v6h-44z"/>
+    <circle cx="164" cy="337" r="5" fill="#D9C3A0" fill-opacity=".5"/>
+    <!-- смотровое окно: свечение только здесь -->
+    <circle class="g" cx="100" cy="258" r="30" fill="url(#e)"/>
+    <circle cx="100" cy="258" r="31" fill="none" stroke="#D9C3A0" stroke-opacity=".6" stroke-width="4"/>
+    <path fill="none" stroke="#2A1E17" stroke-opacity=".5" stroke-width="2" d="M100 228v60M70 258h60"/>
+    <!-- под печи -->
+    <path fill="#2A1E17" d="M0 412h200v28H0z"/>
+    <path fill="#D9C3A0" fill-opacity=".2" d="M0 412h200v2H0z"/>
+  </g>
+  <!-- контур арки на тёмном фоне -->
+  <path fill="none" stroke="#D9C3A0" stroke-opacity=".4" stroke-width="2" d="M1 432a7 7 0 0 0 7 7h184a7 7 0 0 0 7-7V100A99 99 0 0 0 1 100Z"/>
+</svg>
